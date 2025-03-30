@@ -3,7 +3,7 @@ class ChatInterface {
         this.chatHistory = document.querySelector('.chat-history');
         this.textarea = document.querySelector('#chat_bot');
         this.sendButton = document.querySelector('#sendButton');
-        this.apiKey = 'API_KEY_HERE';
+        this.apiKey = @API_KEY_HERE;
 
         this.sendButton.addEventListener('click', () => this.handleSend());
         this.textarea.addEventListener('keydown', (e) => {
